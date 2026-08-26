@@ -1,0 +1,27 @@
+{
+    "name": "audioguide complet",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-mfrc522": "github:joy-it/pxt-rfid-mfrc522#1.0.1",
+        "MakerBit-MP3": "github:1010technologies/pxt-makerbit-mp3#v1.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
